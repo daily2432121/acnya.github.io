@@ -35,9 +35,9 @@
         </section>
         <section class="inner">
             <h3>方案一：使用书签</h3>
-            <p>将这一行保存为书签：javascript:(function(){$.getScript('http://acnya.github.io/script.js')</p>
+            <p>将这一行保存为书签：javascript:(function(){$.getScript('http://acnya.github.io/script.js' + $.salt());})()</p>
             <p>(打开书签栏的快捷键一般是 CTRL+SHIFT+B)</p>
-            <p>或者把这个链接拖到书签栏：<a href="javascript:(function(){$.getScript('http://acnya.github.io/script.js');})()">ACFUN助手</a></p>
+            <p>或者把这个链接拖到书签栏：<a href="javascript:(function(){$.getScript('http://acnya.github.io/script.js' + $.salt());})()">ACFUN助手</a></p>
         </section>
         <section class="inner">
             <h3>方案二：安装chrome扩展</h3>
@@ -46,7 +46,7 @@
         </section>
         <section class="inner">
             <h3>方案三：F12进控制台输入</h3>
-            <p>$.getScript('http://acnya.github.io/script.js');</p>
+            <p>$.getScript('http://acnya.github.io/script.js' + $.salt());</p>
             <p>或者把上面的这段代码作为用户脚本的内容。（油猴子什么的没用过啊</p>
         </section>
 
